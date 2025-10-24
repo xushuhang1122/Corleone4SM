@@ -1,0 +1,272 @@
+{
+  "execution_summary": {
+    "total_games": 2,
+    "completed_games": 2,
+    "failed_games": 6,
+    "success_rate": 1.0,
+    "timestamp": "20251022_160618"
+  },
+  "game_results": {
+    "mafia_wins": 2,
+    "villager_wins": 0,
+    "role_stats": {
+      "Mafia": {
+        "wins": 4,
+        "games": 4,
+        "win_rate": 1.0
+      },
+      "Villager": {
+        "wins": 0,
+        "games": 4,
+        "win_rate": 0.0
+      },
+      "Detective": {
+        "wins": 0,
+        "games": 2,
+        "win_rate": 0.0
+      },
+      "Doctor": {
+        "wins": 0,
+        "games": 2,
+        "win_rate": 0.0
+      }
+    }
+  },
+  "agent_performance": {
+    "Parallel-Vito": {
+      "games": 2,
+      "wins": 1,
+      "win_rate": 0.5,
+      "experiences_learned": 6,
+      "roles": {
+        "Mafia": 1,
+        "Villager": 1
+      }
+    },
+    "Parallel-Michael-1": {
+      "games": 2,
+      "wins": 0,
+      "win_rate": 0.0,
+      "experiences_learned": 1,
+      "roles": {
+        "Villager": 1,
+        "Doctor": 1
+      }
+    },
+    "Parallel-Michael-2": {
+      "games": 2,
+      "wins": 1,
+      "win_rate": 0.5,
+      "experiences_learned": 5,
+      "roles": {
+        "Detective": 1,
+        "Mafia": 1
+      }
+    },
+    "Parallel-Michael-3": {
+      "games": 2,
+      "wins": 2,
+      "win_rate": 1.0,
+      "experiences_learned": 6,
+      "roles": {
+        "Mafia": 2
+      }
+    },
+    "Parallel-Michael-4": {
+      "games": 2,
+      "wins": 0,
+      "win_rate": 0.0,
+      "experiences_learned": 3,
+      "roles": {
+        "Villager": 2
+      }
+    },
+    "Parallel-Michael-5": {
+      "games": 2,
+      "wins": 0,
+      "win_rate": 0.0,
+      "experiences_learned": 0,
+      "roles": {
+        "Doctor": 1,
+        "Detective": 1
+      }
+    }
+  },
+  "strategy_pool_stats": {
+    "total_experiences": 0,
+    "learning_events": [
+      {
+        "timestamp": "2025-10-22T15:12:11.240142",
+        "game_id": 1,
+        "worker_id": 3,
+        "turn": 5,
+        "player_id": 3,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-22T15:12:11.240142",
+        "game_id": 1,
+        "worker_id": 3,
+        "turn": 9,
+        "player_id": 2,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-22T15:12:11.240142",
+        "game_id": 1,
+        "worker_id": 3,
+        "turn": 13,
+        "player_id": 0,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-22T15:12:11.240142",
+        "game_id": 1,
+        "worker_id": 3,
+        "turn": 14,
+        "player_id": 2,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-22T15:12:11.240142",
+        "game_id": 1,
+        "worker_id": 3,
+        "turn": 15,
+        "player_id": 3,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-22T15:12:11.240142",
+        "game_id": 1,
+        "worker_id": 3,
+        "turn": 18,
+        "player_id": 0,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-22T15:12:11.240142",
+        "game_id": 1,
+        "worker_id": 3,
+        "turn": 21,
+        "player_id": 1,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-22T15:12:11.240142",
+        "game_id": 1,
+        "worker_id": 3,
+        "turn": 22,
+        "player_id": 0,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-22T15:12:11.240142",
+        "game_id": 1,
+        "worker_id": 3,
+        "turn": 23,
+        "player_id": 3,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-22T15:43:46.253385",
+        "game_id": 2,
+        "worker_id": 2,
+        "turn": 10,
+        "player_id": 2,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-22T15:43:46.253385",
+        "game_id": 2,
+        "worker_id": 2,
+        "turn": 12,
+        "player_id": 3,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-22T15:43:46.253385",
+        "game_id": 2,
+        "worker_id": 2,
+        "turn": 13,
+        "player_id": 4,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-22T15:43:46.253385",
+        "game_id": 2,
+        "worker_id": 2,
+        "turn": 14,
+        "player_id": 0,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-22T15:43:46.253385",
+        "game_id": 2,
+        "worker_id": 2,
+        "turn": 15,
+        "player_id": 2,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-22T15:43:46.253385",
+        "game_id": 2,
+        "worker_id": 2,
+        "turn": 17,
+        "player_id": 3,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-22T15:43:46.253385",
+        "game_id": 2,
+        "worker_id": 2,
+        "turn": 18,
+        "player_id": 4,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-22T15:43:46.253385",
+        "game_id": 2,
+        "worker_id": 2,
+        "turn": 19,
+        "player_id": 0,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-22T15:43:46.253385",
+        "game_id": 2,
+        "worker_id": 2,
+        "turn": 21,
+        "player_id": 3,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-22T15:43:46.253385",
+        "game_id": 2,
+        "worker_id": 2,
+        "turn": 22,
+        "player_id": 4,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-22T15:43:46.253385",
+        "game_id": 2,
+        "worker_id": 2,
+        "turn": 23,
+        "player_id": 0,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-22T15:43:46.253385",
+        "game_id": 2,
+        "worker_id": 2,
+        "turn": 24,
+        "player_id": 2,
+        "new_experiences": 1
+      }
+    ]
+  },
+  "thread_performance": {
+    "worker_3_games": 1,
+    "worker_2_games": 1
+  }
+}

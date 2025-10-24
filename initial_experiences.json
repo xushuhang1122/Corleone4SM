@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "description": "Initial brilliant experiences for strategy pool cold start",
+    "created": "2025-01-22T00:00:00",
+    "total_experiences": 3
+  },
+  "experiences": [
+    {
+      "role": "Doctor",
+      "phase": "night",
+      "round_number": 3,
+      "key_info": "Player claims detective role and provides credible evidence",
+      "action": "[1]",
+      "action_type": "protect",
+      "reasoning": "Protect claimed detective as they are valuable to villagers",
+      "situation_assessment": "protecting_key_player",
+      "strategic_thinking": "Detective role is crucial for identifying Mafia",
+      "key_factors": ["role claim", "credible evidence", "protection priority"],
+      "success": true,
+      "impact": "Successfully protected detective from Mafia attack"
+    },
+    {
+      "role": "Mafia",
+      "phase": "day_speak",
+      "round_number": 4,
+      "key_info": "Being accused, need to deflect suspicion",
+      "action": "I think Player 3 has been very quiet and suspicious. As a regular villager, I'm just trying to find the real Mafia.",
+      "action_type": "speak",
+      "reasoning": "Deflect accusation by pointing suspicion elsewhere",
+      "situation_assessment": "deception_opportunity",
+      "strategic_thinking": "Create confusion and shift focus to another player",
+      "key_factors": ["accusation defense", "deflection strategy", "blame shifting"],
+      "success": true,
+      "impact": "Successfully diverted votes to eliminate a villager"
+    },
+    {
+      "role": "Detective",
+      "phase": "night",
+      "round_number": 2,
+      "key_info": "Player showing inconsistent behavior and suspicious voting patterns",
+      "action": "[4]",
+      "action_type": "investigate",
+      "reasoning": "Investigate most suspicious player to gather information",
+      "situation_assessment": "investigating_suspects",
+      "strategic_thinking": "Early investigation helps identify Mafia for elimination",
+      "key_factors": ["suspicious behavior", "inconsistent statements", "investigation priority"],
+      "success": true,
+      "impact": "Discovered Mafia member, shared information with villagers"
+    }
+  ]
+}

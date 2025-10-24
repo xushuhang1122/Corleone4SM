@@ -1,0 +1,128 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-10-22T14:56:48.154760",
+    "description": "Strategy experience pool for Secret Mafia game brilliant actions",
+    "total_experiences": 3
+  },
+  "experiences": [
+    {
+      "experience_id": "b38f9b06-4191-479b-af0b-26ddfeb30edf",
+      "timestamp": "2025-10-22T14:56:48.153761",
+      "game_context": {
+        "role": "Doctor",
+        "phase": "night",
+        "round": 3,
+        "key_info": "Player claims detective role and provides credible evidence"
+      },
+      "brilliant_action": {
+        "action": "[1]",
+        "action_type": "protect",
+        "reasoning": "Protect claimed detective as they are valuable to villagers"
+      },
+      "strategy_analysis": {
+        "situation_assessment": "protecting_key_player",
+        "strategic_thinking": "Detective role is crucial for identifying Mafia",
+        "key_factors": [
+          "role claim",
+          "credible evidence",
+          "protection priority"
+        ]
+      },
+      "outcome": {
+        "success": true,
+        "impact": "Successfully protected detective from Mafia attack"
+      },
+      "additional_context": {}
+    },
+    {
+      "experience_id": "95213e60-af96-41e6-8262-48d49f1c440c",
+      "timestamp": "2025-10-22T14:56:48.154760",
+      "game_context": {
+        "role": "Mafia",
+        "phase": "day_speak",
+        "round": 4,
+        "key_info": "Being accused, need to deflect suspicion"
+      },
+      "brilliant_action": {
+        "action": "I think Player 3 has been very quiet and suspicious. As a regular villager, I'm just trying to find the real Mafia.",
+        "action_type": "speak",
+        "reasoning": "Deflect accusation by pointing suspicion elsewhere"
+      },
+      "strategy_analysis": {
+        "situation_assessment": "deception_opportunity",
+        "strategic_thinking": "Create confusion and shift focus to another player",
+        "key_factors": [
+          "accusation defense",
+          "deflection strategy",
+          "blame shifting"
+        ]
+      },
+      "outcome": {
+        "success": true,
+        "impact": "Successfully diverted votes to eliminate a villager"
+      },
+      "additional_context": {}
+    },
+    {
+      "experience_id": "d114fcb2-aa98-442f-8ebf-7004f66bbb20",
+      "timestamp": "2025-10-22T14:56:48.154760",
+      "game_context": {
+        "role": "Detective",
+        "phase": "night",
+        "round": 2,
+        "key_info": "Player showing inconsistent behavior and suspicious voting patterns"
+      },
+      "brilliant_action": {
+        "action": "[4]",
+        "action_type": "investigate",
+        "reasoning": "Investigate most suspicious player to gather information"
+      },
+      "strategy_analysis": {
+        "situation_assessment": "investigating_suspects",
+        "strategic_thinking": "Early investigation helps identify Mafia for elimination",
+        "key_factors": [
+          "suspicious behavior",
+          "inconsistent statements",
+          "investigation priority"
+        ]
+      },
+      "outcome": {
+        "success": true,
+        "impact": "Discovered Mafia member, shared information with villagers"
+      },
+      "additional_context": {}
+    }
+  ],
+  "index": {
+    "by_role": {
+      "Doctor": [
+        "b38f9b06-4191-479b-af0b-26ddfeb30edf"
+      ],
+      "Mafia": [
+        "95213e60-af96-41e6-8262-48d49f1c440c"
+      ],
+      "Detective": [
+        "d114fcb2-aa98-442f-8ebf-7004f66bbb20"
+      ]
+    },
+    "by_phase": {
+      "night": [
+        "b38f9b06-4191-479b-af0b-26ddfeb30edf",
+        "d114fcb2-aa98-442f-8ebf-7004f66bbb20"
+      ],
+      "day_speak": [
+        "95213e60-af96-41e6-8262-48d49f1c440c"
+      ]
+    },
+    "by_situation": {
+      "protect": [
+        "b38f9b06-4191-479b-af0b-26ddfeb30edf"
+      ],
+      "suspect": [
+        "d114fcb2-aa98-442f-8ebf-7004f66bbb20"
+      ]
+    },
+    "last_updated": "2025-10-22T14:56:48.154760"
+  }
+}

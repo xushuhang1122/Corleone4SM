@@ -1,0 +1,857 @@
+{
+  "execution_summary": {
+    "total_games": 8,
+    "completed_games": 8,
+    "failed_games": 8,
+    "success_rate": 1.0,
+    "timestamp": "20251023_134335"
+  },
+  "game_results": {
+    "mafia_wins": 8,
+    "villager_wins": 0,
+    "role_stats": {
+      "Mafia": {
+        "wins": 16,
+        "games": 16,
+        "win_rate": 1.0
+      },
+      "Detective": {
+        "wins": 0,
+        "games": 8,
+        "win_rate": 0.0
+      },
+      "Doctor": {
+        "wins": 0,
+        "games": 8,
+        "win_rate": 0.0
+      },
+      "Villager": {
+        "wins": 0,
+        "games": 16,
+        "win_rate": 0.0
+      }
+    }
+  },
+  "agent_performance": {
+    "Parallel-Michael-0": {
+      "games": 8,
+      "wins": 1,
+      "win_rate": 0.125,
+      "experiences_learned": 21,
+      "roles": {
+        "Mafia": 1,
+        "Villager": 5,
+        "Doctor": 2
+      }
+    },
+    "Parallel-Michael-1": {
+      "games": 8,
+      "wins": 1,
+      "win_rate": 0.125,
+      "experiences_learned": 8,
+      "roles": {
+        "Detective": 2,
+        "Villager": 4,
+        "Mafia": 1,
+        "Doctor": 1
+      }
+    },
+    "Parallel-Michael-2": {
+      "games": 8,
+      "wins": 3,
+      "win_rate": 0.375,
+      "experiences_learned": 14,
+      "roles": {
+        "Mafia": 3,
+        "Doctor": 2,
+        "Detective": 3
+      }
+    },
+    "Parallel-Michael-3": {
+      "games": 8,
+      "wins": 4,
+      "win_rate": 0.5,
+      "experiences_learned": 13,
+      "roles": {
+        "Doctor": 1,
+        "Detective": 3,
+        "Mafia": 4
+      }
+    },
+    "Parallel-Michael-4": {
+      "games": 8,
+      "wins": 4,
+      "win_rate": 0.5,
+      "experiences_learned": 15,
+      "roles": {
+        "Villager": 2,
+        "Doctor": 2,
+        "Mafia": 4
+      }
+    },
+    "Parallel-Michael-5": {
+      "games": 8,
+      "wins": 3,
+      "win_rate": 0.375,
+      "experiences_learned": 22,
+      "roles": {
+        "Villager": 5,
+        "Mafia": 3
+      }
+    }
+  },
+  "strategy_pool_stats": {
+    "total_experiences": 0,
+    "learning_events": [
+      {
+        "timestamp": "2025-10-23T11:56:39.416806",
+        "game_id": 1,
+        "worker_id": 0,
+        "turn": 5,
+        "player_id": 1,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T11:56:39.416806",
+        "game_id": 1,
+        "worker_id": 0,
+        "turn": 11,
+        "player_id": 0,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T11:56:39.416806",
+        "game_id": 1,
+        "worker_id": 0,
+        "turn": 13,
+        "player_id": 2,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T11:56:39.416806",
+        "game_id": 1,
+        "worker_id": 0,
+        "turn": 14,
+        "player_id": 5,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T11:56:39.416806",
+        "game_id": 1,
+        "worker_id": 0,
+        "turn": 16,
+        "player_id": 0,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T11:56:39.416806",
+        "game_id": 1,
+        "worker_id": 0,
+        "turn": 17,
+        "player_id": 3,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T11:56:39.416806",
+        "game_id": 1,
+        "worker_id": 0,
+        "turn": 18,
+        "player_id": 2,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T11:56:39.416806",
+        "game_id": 1,
+        "worker_id": 0,
+        "turn": 19,
+        "player_id": 5,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T11:56:39.416806",
+        "game_id": 1,
+        "worker_id": 0,
+        "turn": 20,
+        "player_id": 5,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T11:56:39.416806",
+        "game_id": 1,
+        "worker_id": 0,
+        "turn": 21,
+        "player_id": 2,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T11:56:39.416806",
+        "game_id": 1,
+        "worker_id": 0,
+        "turn": 24,
+        "player_id": 0,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T11:57:16.241707",
+        "game_id": 2,
+        "worker_id": 3,
+        "turn": 7,
+        "player_id": 5,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T11:57:16.241707",
+        "game_id": 2,
+        "worker_id": 3,
+        "turn": 11,
+        "player_id": 2,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T11:57:16.241707",
+        "game_id": 2,
+        "worker_id": 3,
+        "turn": 12,
+        "player_id": 5,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T11:57:16.241707",
+        "game_id": 2,
+        "worker_id": 3,
+        "turn": 13,
+        "player_id": 0,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T11:57:16.241707",
+        "game_id": 2,
+        "worker_id": 3,
+        "turn": 14,
+        "player_id": 4,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T11:57:16.241707",
+        "game_id": 2,
+        "worker_id": 3,
+        "turn": 15,
+        "player_id": 1,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T11:57:16.241707",
+        "game_id": 2,
+        "worker_id": 3,
+        "turn": 16,
+        "player_id": 2,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T11:57:16.241707",
+        "game_id": 2,
+        "worker_id": 3,
+        "turn": 17,
+        "player_id": 5,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T11:57:16.241707",
+        "game_id": 2,
+        "worker_id": 3,
+        "turn": 18,
+        "player_id": 0,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T11:57:16.241707",
+        "game_id": 2,
+        "worker_id": 3,
+        "turn": 19,
+        "player_id": 4,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T11:57:16.241707",
+        "game_id": 2,
+        "worker_id": 3,
+        "turn": 20,
+        "player_id": 5,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T11:57:16.241707",
+        "game_id": 2,
+        "worker_id": 3,
+        "turn": 21,
+        "player_id": 0,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T11:57:16.241707",
+        "game_id": 2,
+        "worker_id": 3,
+        "turn": 22,
+        "player_id": 4,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T11:57:16.241707",
+        "game_id": 2,
+        "worker_id": 3,
+        "turn": 23,
+        "player_id": 2,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:13:18.547258",
+        "game_id": 3,
+        "worker_id": 0,
+        "turn": 12,
+        "player_id": 2,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:13:18.547258",
+        "game_id": 3,
+        "worker_id": 0,
+        "turn": 13,
+        "player_id": 4,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:13:18.547258",
+        "game_id": 3,
+        "worker_id": 0,
+        "turn": 14,
+        "player_id": 5,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:13:18.547258",
+        "game_id": 3,
+        "worker_id": 0,
+        "turn": 16,
+        "player_id": 0,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:13:18.547258",
+        "game_id": 3,
+        "worker_id": 0,
+        "turn": 17,
+        "player_id": 2,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:13:18.547258",
+        "game_id": 3,
+        "worker_id": 0,
+        "turn": 18,
+        "player_id": 4,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:13:18.547258",
+        "game_id": 3,
+        "worker_id": 0,
+        "turn": 19,
+        "player_id": 5,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:13:18.547258",
+        "game_id": 3,
+        "worker_id": 0,
+        "turn": 20,
+        "player_id": 0,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:13:18.547258",
+        "game_id": 3,
+        "worker_id": 0,
+        "turn": 22,
+        "player_id": 4,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:13:18.547258",
+        "game_id": 3,
+        "worker_id": 0,
+        "turn": 23,
+        "player_id": 2,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:30:53.733202",
+        "game_id": 4,
+        "worker_id": 0,
+        "turn": 10,
+        "player_id": 2,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:30:53.733202",
+        "game_id": 4,
+        "worker_id": 0,
+        "turn": 12,
+        "player_id": 0,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:30:53.733202",
+        "game_id": 4,
+        "worker_id": 0,
+        "turn": 13,
+        "player_id": 5,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:30:53.733202",
+        "game_id": 4,
+        "worker_id": 0,
+        "turn": 14,
+        "player_id": 3,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:30:53.733202",
+        "game_id": 4,
+        "worker_id": 0,
+        "turn": 15,
+        "player_id": 2,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:30:53.733202",
+        "game_id": 4,
+        "worker_id": 0,
+        "turn": 17,
+        "player_id": 0,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:30:53.733202",
+        "game_id": 4,
+        "worker_id": 0,
+        "turn": 18,
+        "player_id": 5,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:30:53.733202",
+        "game_id": 4,
+        "worker_id": 0,
+        "turn": 19,
+        "player_id": 3,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:30:53.733202",
+        "game_id": 4,
+        "worker_id": 0,
+        "turn": 22,
+        "player_id": 0,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:30:53.733202",
+        "game_id": 4,
+        "worker_id": 0,
+        "turn": 23,
+        "player_id": 3,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:30:53.733202",
+        "game_id": 4,
+        "worker_id": 0,
+        "turn": 24,
+        "player_id": 5,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:47:45.063919",
+        "game_id": 5,
+        "worker_id": 3,
+        "turn": 5,
+        "player_id": 5,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:47:45.063919",
+        "game_id": 5,
+        "worker_id": 3,
+        "turn": 11,
+        "player_id": 3,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:47:45.063919",
+        "game_id": 5,
+        "worker_id": 3,
+        "turn": 14,
+        "player_id": 0,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:47:45.063919",
+        "game_id": 5,
+        "worker_id": 3,
+        "turn": 15,
+        "player_id": 5,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:47:45.063919",
+        "game_id": 5,
+        "worker_id": 3,
+        "turn": 16,
+        "player_id": 3,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:47:45.063919",
+        "game_id": 5,
+        "worker_id": 3,
+        "turn": 17,
+        "player_id": 1,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:47:45.063919",
+        "game_id": 5,
+        "worker_id": 3,
+        "turn": 19,
+        "player_id": 0,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:47:45.063919",
+        "game_id": 5,
+        "worker_id": 3,
+        "turn": 20,
+        "player_id": 1,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:47:45.063919",
+        "game_id": 5,
+        "worker_id": 3,
+        "turn": 21,
+        "player_id": 3,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:47:45.063919",
+        "game_id": 5,
+        "worker_id": 3,
+        "turn": 22,
+        "player_id": 5,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:47:45.063919",
+        "game_id": 5,
+        "worker_id": 3,
+        "turn": 24,
+        "player_id": 0,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:48:55.954369",
+        "game_id": 6,
+        "worker_id": 0,
+        "turn": 6,
+        "player_id": 4,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:48:55.954369",
+        "game_id": 6,
+        "worker_id": 0,
+        "turn": 12,
+        "player_id": 0,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:48:55.954369",
+        "game_id": 6,
+        "worker_id": 0,
+        "turn": 14,
+        "player_id": 1,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:48:55.954369",
+        "game_id": 6,
+        "worker_id": 0,
+        "turn": 16,
+        "player_id": 4,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:48:55.954369",
+        "game_id": 6,
+        "worker_id": 0,
+        "turn": 17,
+        "player_id": 0,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:48:55.954369",
+        "game_id": 6,
+        "worker_id": 0,
+        "turn": 19,
+        "player_id": 1,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:48:55.954369",
+        "game_id": 6,
+        "worker_id": 0,
+        "turn": 20,
+        "player_id": 4,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:48:55.954369",
+        "game_id": 6,
+        "worker_id": 0,
+        "turn": 22,
+        "player_id": 1,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:48:55.954369",
+        "game_id": 6,
+        "worker_id": 0,
+        "turn": 23,
+        "player_id": 0,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:48:55.954369",
+        "game_id": 6,
+        "worker_id": 0,
+        "turn": 24,
+        "player_id": 5,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:55:09.857512",
+        "game_id": 7,
+        "worker_id": 1,
+        "turn": 11,
+        "player_id": 3,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:55:09.857512",
+        "game_id": 7,
+        "worker_id": 1,
+        "turn": 12,
+        "player_id": 5,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:55:09.857512",
+        "game_id": 7,
+        "worker_id": 1,
+        "turn": 14,
+        "player_id": 4,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:55:09.857512",
+        "game_id": 7,
+        "worker_id": 1,
+        "turn": 16,
+        "player_id": 3,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:55:09.857512",
+        "game_id": 7,
+        "worker_id": 1,
+        "turn": 17,
+        "player_id": 5,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:55:09.857512",
+        "game_id": 7,
+        "worker_id": 1,
+        "turn": 18,
+        "player_id": 1,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:55:09.857512",
+        "game_id": 7,
+        "worker_id": 1,
+        "turn": 19,
+        "player_id": 4,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:55:09.857512",
+        "game_id": 7,
+        "worker_id": 1,
+        "turn": 20,
+        "player_id": 5,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:55:09.857512",
+        "game_id": 7,
+        "worker_id": 1,
+        "turn": 21,
+        "player_id": 3,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:55:09.857512",
+        "game_id": 7,
+        "worker_id": 1,
+        "turn": 23,
+        "player_id": 0,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T12:55:09.857512",
+        "game_id": 7,
+        "worker_id": 1,
+        "turn": 24,
+        "player_id": 4,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T13:05:56.551822",
+        "game_id": 8,
+        "worker_id": 0,
+        "turn": 5,
+        "player_id": 2,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T13:05:56.551822",
+        "game_id": 8,
+        "worker_id": 0,
+        "turn": 11,
+        "player_id": 5,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T13:05:56.551822",
+        "game_id": 8,
+        "worker_id": 0,
+        "turn": 12,
+        "player_id": 4,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T13:05:56.551822",
+        "game_id": 8,
+        "worker_id": 0,
+        "turn": 13,
+        "player_id": 0,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T13:05:56.551822",
+        "game_id": 8,
+        "worker_id": 0,
+        "turn": 14,
+        "player_id": 3,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T13:05:56.551822",
+        "game_id": 8,
+        "worker_id": 0,
+        "turn": 15,
+        "player_id": 2,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T13:05:56.551822",
+        "game_id": 8,
+        "worker_id": 0,
+        "turn": 16,
+        "player_id": 5,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T13:05:56.551822",
+        "game_id": 8,
+        "worker_id": 0,
+        "turn": 17,
+        "player_id": 4,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T13:05:56.551822",
+        "game_id": 8,
+        "worker_id": 0,
+        "turn": 18,
+        "player_id": 0,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T13:05:56.551822",
+        "game_id": 8,
+        "worker_id": 0,
+        "turn": 19,
+        "player_id": 3,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T13:05:56.551822",
+        "game_id": 8,
+        "worker_id": 0,
+        "turn": 20,
+        "player_id": 0,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T13:05:56.551822",
+        "game_id": 8,
+        "worker_id": 0,
+        "turn": 21,
+        "player_id": 4,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T13:05:56.551822",
+        "game_id": 8,
+        "worker_id": 0,
+        "turn": 22,
+        "player_id": 3,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T13:05:56.551822",
+        "game_id": 8,
+        "worker_id": 0,
+        "turn": 23,
+        "player_id": 2,
+        "new_experiences": 1
+      },
+      {
+        "timestamp": "2025-10-23T13:05:56.551822",
+        "game_id": 8,
+        "worker_id": 0,
+        "turn": 24,
+        "player_id": 5,
+        "new_experiences": 1
+      }
+    ]
+  },
+  "thread_performance": {
+    "worker_0_games": 5,
+    "worker_3_games": 2,
+    "worker_1_games": 1
+  }
+}
